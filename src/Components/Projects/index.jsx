@@ -14,7 +14,7 @@ function Projects() {
         <div className=' space-y-5'>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black'>
                 <div>
-                    <img src="src/assets/Bookipedia.png" alt="screenshot of bookipedia.com" className='rounded-t-lg' />
+                    <img src="./assets/Bookipedia.png" alt="screenshot of bookipedia.com" className='rounded-t-lg' />
                 </div>
                 <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-extrabold'>BOOKIPEDIA</h3>
@@ -43,7 +43,7 @@ function Projects() {
             </div>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black'>
                 <div>
-                    <img src="src/assets/NoroffShop.png" alt="screenshot of noroffshop.com" className='rounded-t-lg' />
+                    <img src="./assets/NoroffShop.png" alt="screenshot of noroffshop.com" className='rounded-t-lg' />
                 </div>
                 <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-extrabold'>Noroff Shop</h3>
@@ -73,7 +73,7 @@ function Projects() {
             </div>
              <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black'>
                 <div>
-                    <img src="src/assets/a&zAuction.png" alt="screenshot of a&z.com" className='rounded-t-lg' />
+                    <img src="./assets/a&zAuction.png" alt="screenshot of a&z.com" className='rounded-t-lg' />
                 </div>
                 <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-extrabold'>A & Z Auction</h3>

@@ -16,10 +16,10 @@ function App() {
       <Profile />
       <AboutMe />
       <Projects />
-      <div className="h-screen">
+   
         <Contact />
       <Footer />
-      </div>
+    
       
     </>
   )

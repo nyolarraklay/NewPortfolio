@@ -14,7 +14,7 @@ function Projects() {
         <div className=' space-y-5'>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black'>
                 <div>
-                    <img src="./assets/Bookipedia.png" alt="screenshot of bookipedia.com" className='rounded-t-lg' />
+                    <img src="dist/assets/Bookipedia.png" alt="screenshot of bookipedia.com" className='rounded-t-lg' />
                 </div>
                 <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-extrabold'>BOOKIPEDIA</h3>
@@ -32,7 +32,7 @@ function Projects() {
                             <li className='flex items-center  bg-cyan-600 rounded-md px-2 border shadow-md text-sm text-white' ><RiTailwindCssFill className='text-md text-white' /> Tailwind CSS</li>
                             <li className='flex items-center bg-cyan-300 rounded-md px-2 border shadow-md text-sm text-black'><FaReact className='text-md ' />React</li>
                             <li className='flex items-center bg-emerald-600 rounded-md px-2 border shadow-md text-sm text-white'><SiVitest className='text-lg mr-1' />Vitest</li>
-                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='public/vite.svg' className='size-5 ml-2'></img> </li>
+                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='/vite.svg' className='size-5 ml-2'></img> </li>
                         </ul>
                     </div> 
                 </div>
@@ -43,7 +43,7 @@ function Projects() {
             </div>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black'>
                 <div>
-                    <img src="./assets/NoroffShop.png" alt="screenshot of noroffshop.com" className='rounded-t-lg' />
+                    <img src="dist/assets/NoroffShop.png" alt="screenshot of noroffshop.com" className='rounded-t-lg' />
                 </div>
                 <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-extrabold'>Noroff Shop</h3>
@@ -61,7 +61,7 @@ function Projects() {
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>
                             <li className='flex items-center bg-cyan-300 rounded-md px-2 border shadow-md text-sm text-black'><FaReact className='text-md ' />React</li>
                             <li className='flex items-center  bg-cyan-600 rounded-md px-2 border shadow-md text-sm text-white' ><RiTailwindCssFill className='text-md text-white' /> Tailwind CSS</li>
-                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='public/vite.svg' className='size-5 ml-2'></img> </li>
+                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='/vite.svg' className='size-5 ml-2'></img> </li>
                         </ul>
                     </div> 
                 </div>
@@ -73,7 +73,7 @@ function Projects() {
             </div>
              <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black'>
                 <div>
-                    <img src="./assets/a&zAuction.png" alt="screenshot of a&z.com" className='rounded-t-lg' />
+                    <img src="dist/assets/a&zAuction.png" alt="screenshot of a&z.com" className='rounded-t-lg' />
                 </div>
                 <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-extrabold'>A & Z Auction</h3>

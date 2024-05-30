@@ -2,9 +2,9 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <div className='bg-gray-100 h-screen p-8' id='about'>
+    <div className='bg-gray-100 h-auto p-8' id='about'>
       <div className='p-1' >
-        <img src="./assets/aboutmephoto.avif" alt="" className='rounded-t-lg' />
+        <img src="dist/assets/aboutmephoto.avif" alt="" className='rounded-t-lg' />
       </div>
         <div className='mx-auto p-6 text-center space-y-5'>
         <h1 className='font-semibold text-2xl text-blue-400' >About Me</h1>

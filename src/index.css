@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.iconSize {
+    @apply text-4xl lg:text-6xl;
+}
+.lgSize {
+    @apply md:justify-evenly lg:max-w-6xl;
+}
+
+.aboutParagraph {
+    @apply lg:text-2xl;
+}
+
+.aboutImage {
+    @apply hidden lg:block lg:absolute lg:bottom-[-25px]
+}
+
+.projectsForLgScreenDiv {
+    @apply lg:grid lgSize lg:gap-5 lg:border-none lg:grid-cols-2;
+}
+
+.projectsForLgScreenDiv img {
+    @apply lg:h-full lg:rounded-lg;
+}
+
+.aboutPageForLgScreen {
+    @apply lg:text-start lg:pr-20 lg:items-start lg:justify-start;
+}
+

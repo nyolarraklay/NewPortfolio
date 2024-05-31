@@ -13,7 +13,7 @@ function Profile() {
         <div className="size-64 border-4 border-black rounded-full bg-[url('./assets/bildemedbg.png')] bg-cover bg-no-repeat shadow-lg bg-top animate-morph transition-all duration-100 ease-in-out  lg:content-center lg:basis-3/5 lg:h-3/4 "></div>
           <div className='flex flex-col relative max-w-4xl gap-5 lg:px-10'>
             <h1 className='text-5xl sm:text-6xl font-bold my-2 '>Front-end React Developer</h1>
-            <p className='text-lg font-semibold lg:pr-48'>Hi, I'm Ernesto Osorio Jr. A pssionate Front-end React Developer based in Oslo, Norway. ✈️ </p>
+            <p className='text-lg font-semibold lg:pr-48'>Hi, I'm Ernesto Osorio Jr. A passionate Front-end React Developer based in Oslo, Norway. ✈️ </p>
             <span className='flex cursor-pointer justify-center mt-2 gap-2 md:justify-start'><a href="https://www.linkedin.com/in/ernesto-jr-osorio-16b698248/"><RxLinkedinLogo className='text-2xl' /></a>
             <a href="https://github.com/nyolarraklay"><RxGithubLogo className='text-2xl' /></a> 
             </span>

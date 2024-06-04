@@ -1,9 +1,6 @@
-import React from 'react'
-import { RxLinkedinLogo, RxGithubLogo } from "react-icons/rx";
-import {  FaReact, FaBootstrap, FaSass, FaWordpress, FaGit   } from "react-icons/fa";
-import { RiJavascriptFill, RiTailwindCssFill, RiHtml5Fill, RiCss3Fill } from "react-icons/ri";
-
-
+import TechStack from '../TechStack';
+import github from '../../assets/github.png'
+import linkedin from '../../assets/linkedin.png'
 
 function Profile() {
   return (
@@ -14,8 +11,8 @@ function Profile() {
           <div className='flex flex-col relative max-w-4xl gap-5 lg:px-10'>
             <h1 className='text-5xl sm:text-6xl font-bold my-2 '>Front-end React Developer</h1>
             <p className='text-lg font-semibold lg:pr-48'>Hi, I'm Ernesto Osorio Jr. A passionate Front-end React Developer based in Oslo, Norway. ✈️ </p>
-            <span className='flex cursor-pointer justify-center mt-2 gap-2 md:justify-start'><a href="https://www.linkedin.com/in/ernesto-jr-osorio-16b698248/"><RxLinkedinLogo className='text-2xl' /></a>
-            <a href="https://github.com/nyolarraklay"><RxGithubLogo className='text-2xl' /></a> 
+            <span className='flex cursor-pointer justify-center mt-2 gap-2 md:justify-start'><a href="https://www.linkedin.com/in/ernesto-jr-osorio-16b698248/" aria-label="Go to my linked-in account"><img src={linkedin} alt="" className='size-10' /></a>
+            <a href="https://github.com/nyolarraklay" aria-label="Visit my github profile"><img src={github} alt="" className='size-10' /></a> 
             </span>
           </div>
       </div>
@@ -23,21 +20,7 @@ function Profile() {
         <p className='font-semibold text-2xl text-center'>Tech Stack</p>
         <span className='hidden lg:block text-4xl ml-5 mr-20'>|</span>
         <hr className='my-3 lg:hidden'/>
-        
-          <div>
-            <ul className='flex flex-wrap space-x-1 justify-center items-center lg:space-x-5'>
-                <li><RiHtml5Fill className='iconSize text-orange-400' /></li>
-                <li><RiCss3Fill className='iconSize rounded-md bg-blue-400 text-white' /></li>
-                <li><RiJavascriptFill className='iconSize text-yellow-400' /></li>
-                <li><FaReact className='iconSize text-cyan-300 rounded-md bg-black'  /></li>
-                <li><FaBootstrap className='iconSize text-purple-700' /></li>
-                <li><RiTailwindCssFill className='iconSize text-cyan-600 bg-white rounded-md' /></li>
-                <li><FaSass className='iconSize text-pink-400 bg-black rounded-md' /></li>
-                <li><FaWordpress className='iconSize text-white bg-black rounded-md' /></li>
-                <li><FaGit className='iconSize text-white bg-black rounded-md' /></li>
-                <li><RxGithubLogo className='iconSize text-white bg-black rounded-md' /></li>
-            </ul>
-          </div>
+        <TechStack />
       </div>
     </div>
     </div>

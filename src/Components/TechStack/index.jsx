@@ -11,7 +11,7 @@ import tailwind from '../../assets/tailwind.png'
 
 function TechStack() {
   return (
-    <div className='my-20'>
+    <div className='my-0'>
         <ul className='flex flex-wrap space-x-1 justify-center items-center lg:space-x-3'>
             <li><img src={html} alt="an image of an icon html"className='iconSizeTech' /></li>
             <li><img src={css} alt="an image of an icon css" className='iconSizeTech'/></li>

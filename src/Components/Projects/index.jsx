@@ -19,7 +19,7 @@ function Projects() {
         </div>
         <div className=' space-y-5'>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black projectsForLgScreenDiv '>
-                <div className='lg:px-7 pt-7 pb-32'>
+                <div className='lg:px-7 lg:pt-7 lg:pb-32'>
                     <img src={Bookipedia} alt="screenshot of bookipedia.com" className='rounded-t-lg' />
                 </div>
                 <div>
@@ -51,7 +51,7 @@ function Projects() {
                
             </div>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black projectsForLgScreenDiv'>
-                <div className='lg:px-7 pt-7 pb-32'>
+                <div className='lg:px-7 lg:pt-7 lg:pb-32'>
                     <img src={NoroffShop} alt="screenshot of noroffshop.com" className='rounded-t-lg' />
                 </div>
                 <div>
@@ -84,7 +84,7 @@ function Projects() {
                  
             </div>
              <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black projectsForLgScreenDiv'>
-                <div className='lg:px-7 pt-7 pb-32'>
+                <div className='lg:px-7 lg:pt-7 lg:pb-32'>
                     <img src={azAuction} alt="screenshot of a&z.com" className='rounded-t-lg' />
                 </div>
                 <div>

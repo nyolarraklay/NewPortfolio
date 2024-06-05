@@ -13,8 +13,8 @@ function AboutMe() {
         <img src={imageBend} alt="front-end words" className='aboutImage h-52 w-[210px]  lg:right-[-20px] animate-spin' />
         </span>
       </div>
-      <div className='max-w-[1250px] mx-auto p-6 text-center lg:text-start space-y-5 lg:px-12  lg:py-10'>
-        <h1 className='font-black text-3xl text-blue-800 ' >About Me</h1>
+      <div className='max-w-[1250px] mx-auto p-6 text-left lg:text-start space-y-5 lg:px-12  lg:py-10'>
+        <h1 className='font-black text-3xl text-blue-800 text-center ' >About Me</h1>
         <h2 className='text-2xl font-bold'>Front-end Developer based in Oslo, Norway</h2>
         <p className='aboutParagraph'>Hello there! I'm Ernesto or you can call me Nyol, a passionate front-end developer based in Oslo, Norway, with a love for crafting beautiful and user-friendly web experiences. With a solid foundation in React, combined with Tailwind CSS and JavaScript, I specialize in building dynamic and responsive web applications that not only meet but exceed the expectations of users. </p>
         <p className='aboutParagraph'>

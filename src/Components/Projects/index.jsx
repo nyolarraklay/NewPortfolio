@@ -40,7 +40,7 @@ function Projects() {
                         </ul>
                     </div> 
                     </div>
-                    <div className='flex justify-center gap-10 my-8'>
+                    <div className='flex justify-start px-5 gap-10 my-8'>
                     <a href="https://github.com/nyolarraklay/Noroff" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
                     <a href="https://bookipedia-onlinebooking.netlify.app/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                     </div>   
@@ -59,7 +59,7 @@ function Projects() {
                     <p>The website provides an interface for searching products, adding items to the cart, increasing item quantities in the cart, deleting items from the cart, performing validation checks for inputs, and handling checkout procedures.</p>
                         </div>
                         <div className='p-5 space-y-2'>
-                            <h3>Technologies</h3>   
+                            <h3 className='text-2xl font-semibold'>Technologies</h3>   
                             <hr />
                             <div>
                             <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
@@ -72,7 +72,7 @@ function Projects() {
                             </ul>
                         </div> 
                 </div>
-                <div className='flex justify-center gap-10 my-8'>
+                <div className='flex justify-start px-5 gap-10 my-8'>
                 <a href="https://github.com/nyolarraklay/ReactPractice2" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
                 <a href="https://noroffonlineshop.netlify.app/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                 </div>  
@@ -91,7 +91,7 @@ function Projects() {
                     <p>The platform provides interfaces for user registration, login, profile management, listing creation, bid management, and search functionality for unregistered users.</p>
                 </div>
                 <div className='p-5 space-y-2'>
-                    <h3>Technologies</h3>   
+                    <h3 className='text-2xl font-semibold'>Technologies</h3>   
                     <hr />
                     <div>
                         <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
@@ -107,7 +107,7 @@ function Projects() {
                         </ul>
                     </div> 
                 </div>   
-                <div className='flex justify-center gap-10 my-8'>
+                <div className='flex justify-start px-5 gap-10 my-8'>
                 <a href="https://github.com/nyolarraklay/SemesterProject-AuctionWebsite" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
                 <a href="https://nyolarraklay.github.io/SemesterProject-AuctionWebsite/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                 </div> 

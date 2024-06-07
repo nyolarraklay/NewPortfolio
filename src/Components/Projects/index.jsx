@@ -9,7 +9,7 @@ import azAuction from '../../assets/azAuction.png';
 
 function Projects() {
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-gray-100 p-5'>
      <div id='projects' className='my-5'>
         <div>
             <h1 className='text-4xl font-bold text-center my-10'>Projects</h1>
@@ -29,7 +29,7 @@ function Projects() {
                     <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-semibold'>Technologies</h3>   
                     <div>
-                        <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
+                        <ul className='flex flex-wrap gap-1 justify-start items-center'>
                             <li className='flex items-center bg-orange-500 rounded-md px-2 border shadow-md text-sm'><RiHtml5Fill className='text-md text-black' />HTML</li>
                             <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-black' ><RiCss3Fill className='text-md text-black' /> CSS</li>
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>
@@ -62,7 +62,7 @@ function Projects() {
                             <h3 className='text-2xl font-semibold'>Technologies</h3>   
                             <hr />
                             <div>
-                            <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
+                            <ul className='flex flex-wrap gap-1 justify-start items-center'>
                             <li className='flex items-center bg-orange-500 rounded-md px-2 border shadow-md text-sm'><RiHtml5Fill className='text-md text-black' />HTML</li>
                             <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-black' ><RiCss3Fill className='text-md text-black' /> CSS</li>
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>
@@ -94,7 +94,7 @@ function Projects() {
                     <h3 className='text-2xl font-semibold'>Technologies</h3>   
                     <hr />
                     <div>
-                        <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
+                        <ul className='flex flex-wrap gap-1 justify-start items-center'>
                             <li className='flex items-center bg-orange-500 rounded-md px-2 border shadow-md text-sm'><RiHtml5Fill className='text-md text-black' />HTML</li>
                             <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-black' ><RiCss3Fill className='text-md text-black' /> CSS</li>
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>

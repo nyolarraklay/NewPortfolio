@@ -5,7 +5,7 @@ import imageBend from '../../assets/imageBend.png';
 
 function AboutMe() {
   return (
-    <div className='h-auto p-8 flex items-center flex-col justify-between ' id='about'>
+    <div className='h-auto p-5 flex items-center flex-col justify-between ' id='about'>
       <div className='p-1 flex justify-center lg:relative ' >
         <img src={aboutMePhoto} alt="image of a nice view" className='rounded-t-lg lg:rounded-xl lg:size-full' />
         <img src={working} alt="an icon of a developer" className='aboutImage size-44  lg:right-0 lg:z-50' />

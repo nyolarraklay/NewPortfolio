@@ -3,7 +3,7 @@ import { CgMail } from "react-icons/cg";
 
 function Contact() {
   return (
-    <div id='contacts' className="flex flex-col justify-evenly items-center mx-auto text-center py-5 gap-16 lgSize lg:items-start ">
+    <div id='contacts' className="flex flex-col justify-evenly items-center mx-auto text-center p-5 gap-16 lgSize lg:items-start ">
        {/* Contact-Text */}
         <div className='mx-auto max-w-md sm:max-w-2xl lg:max-w-6xl mt-8 flex flex-col justify-between gap-10 px-5 aboutPageForLgScreen '>
              <h1 className=" text-4xl text-blue-800 font-bold">Get in Touch</h1>

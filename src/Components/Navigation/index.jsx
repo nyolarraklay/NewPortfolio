@@ -19,16 +19,14 @@ const handleNav = () => {
             behavior: 'smooth'
         });
     }
-   
   }
-
   return (
     <div className='flex flex-wrap items-center justify-between left-0  sticky top-0 z-[200] h-auto w-full bg-white shadow-md px-10 py-5 '>
         {/* Logo */}
         <div>
             <h1 className="text-xl font-bold">Nyolosorio.dev</h1>
         </div>  {/* End of Logo */}
-        <button onClick={handleNav} className="block sm:hidden"> <GiHamburgerMenu className='text-xl font-bold' /> </button>
+        <button onClick={handleNav} className="block sm:hidden" aria-label="Hamburger-menu"> <GiHamburgerMenu className='text-xl font-bold' /> </button>
          {/* Nav (desktop) */}
         <div className='hidden sm:flex sm:flex-grow sm:justify-end'>
             <ul className='flex space-x-10 text-md font-bold'>

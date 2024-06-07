@@ -7,43 +7,40 @@ import Bookipedia from '../../assets/Bookipedia.png';
 import NoroffShop from '../../assets/NoroffShop.png';
 import azAuction from '../../assets/azAuction.png';
 
-
-
-
 function Projects() {
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-gray-100 p-5'>
      <div id='projects' className='my-5'>
         <div>
             <h1 className='text-4xl font-bold text-center my-10'>Projects</h1>
         </div>
         <div className=' space-y-5'>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black projectsForLgScreenDiv '>
-                <div className='lg:p-7'>
-                    <img src={Bookipedia} alt="screenshot of bookipedia.com" className='rounded-t-lg' />
+                <div className='lg:px-7 lg:pt-7 lg:pb-32'>
+                    <img src={Bookipedia} alt="screenshot of bookipedia.com" className='rounded-t-lg size-full' />
                 </div>
                 <div>
                     <div className='p-5 space-y-2'>
-                    <h3 className='text-2xl font-extrabold'>BOOKIPEDIA</h3>
-                    <h4 className='text-lg font-semibold'>Online Booking Site</h4>
+                    <h2 className='text-2xl font-extrabold'>BOOKIPEDIA</h2>
+                    <h3 className='text-lg font-semibold'>Online Booking Site</h3>
                     <p>A online booking website that allows users to book a venue and allows users with manager rights to create, edit and delete a venue and may view bookings for a venue they created. </p>
                     <p>The website provides an interface for searching venues, viewing booked dates, creating profiles, and logging in as either a user or a manager.</p>
                     </div>
                     <div className='p-5 space-y-2'>
                     <h3 className='text-2xl font-semibold'>Technologies</h3>   
                     <div>
-                        <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
+                        <ul className='flex flex-wrap gap-1 justify-start items-center'>
                             <li className='flex items-center bg-orange-500 rounded-md px-2 border shadow-md text-sm'><RiHtml5Fill className='text-md text-black' />HTML</li>
-                            <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-white' ><RiCss3Fill className='text-md text-white' /> CSS</li>
+                            <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-black' ><RiCss3Fill className='text-md text-black' /> CSS</li>
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>
-                            <li className='flex items-center  bg-cyan-600 rounded-md px-2 border shadow-md text-sm text-white' ><RiTailwindCssFill className='text-md text-white' /> Tailwind CSS</li>
+                            <li className='flex items-center  bg-cyan-600 rounded-md px-2 border shadow-md text-sm text-black' ><RiTailwindCssFill className='text-md text-black' /> Tailwind CSS</li>
                             <li className='flex items-center bg-cyan-300 rounded-md px-2 border shadow-md text-sm text-black'><FaReact className='text-md ' />React</li>
-                            <li className='flex items-center bg-emerald-600 rounded-md px-2 border shadow-md text-sm text-white'><SiVitest className='text-lg mr-1' />Vitest</li>
-                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='/vite.svg' className='size-5 ml-2'></img> </li>
+                            <li className='flex items-center bg-emerald-600 rounded-md px-2 border shadow-md text-sm text-black'><SiVitest className='text-lg mr-1' />Vitest</li>
+                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='/vite.svg' className='size-5 ml-2' alt='icon of vite'></img> </li>
                         </ul>
                     </div> 
                     </div>
-                    <div className='flex justify-center gap-10 my-8'>
+                    <div className='flex justify-start px-5 gap-10 my-8'>
                     <a href="https://github.com/nyolarraklay/Noroff" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
                     <a href="https://bookipedia-onlinebooking.netlify.app/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                     </div>   
@@ -51,57 +48,55 @@ function Projects() {
                
             </div>
             <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black projectsForLgScreenDiv'>
-                <div className='lg:p-7'>
-                    <img src={NoroffShop} alt="screenshot of noroffshop.com" className='rounded-t-lg' />
+                <div className='lg:px-5 lg:pt-7 lg:h-[350px] lg:w-auto'>
+                    <img src={NoroffShop} alt="screenshot of noroffshop.com" className='rounded-t-lg w-full' />
                 </div>
                 <div>
                        <div className='p-5 space-y-2'>
-                    <h3 className='text-2xl font-extrabold'>Noroff Shop</h3>
-                    <h4 className='text-lg font-semibold'>E-Commerce Site</h4>
+                    <h2 className='text-2xl font-extrabold'>Noroff Shop</h2>
+                    <h3 className='text-lg font-semibold'>E-Commerce Site</h3>
                     <p>Noroff Shop is an online store that allows buyers to search for items, browse through all products, pick out products, add them to the cart, and perform validation before checking out.</p>
                     <p>The website provides an interface for searching products, adding items to the cart, increasing item quantities in the cart, deleting items from the cart, performing validation checks for inputs, and handling checkout procedures.</p>
                         </div>
                         <div className='p-5 space-y-2'>
-                            <h3>Technologies</h3>   
+                            <h3 className='text-2xl font-semibold'>Technologies</h3>   
                             <hr />
                             <div>
-                            <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
+                            <ul className='flex flex-wrap gap-1 justify-start items-center'>
                             <li className='flex items-center bg-orange-500 rounded-md px-2 border shadow-md text-sm'><RiHtml5Fill className='text-md text-black' />HTML</li>
-                            <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-white' ><RiCss3Fill className='text-md text-white' /> CSS</li>
+                            <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-black' ><RiCss3Fill className='text-md text-black' /> CSS</li>
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>
                             <li className='flex items-center bg-cyan-300 rounded-md px-2 border shadow-md text-sm text-black'><FaReact className='text-md ' />React</li>
-                            <li className='flex items-center  bg-cyan-600 rounded-md px-2 border shadow-md text-sm text-white' ><RiTailwindCssFill className='text-md text-white' /> Tailwind CSS</li>
-                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='/vite.svg' className='size-5 ml-2'></img> </li>
+                            <li className='flex items-center  bg-cyan-600 rounded-md px-2 border shadow-md text-sm text-black' ><RiTailwindCssFill className='text-md text-black' /> Tailwind CSS</li>
+                            <li className='flex items-center  bg-rose-600 rounded-md px-2 border shadow-md text-sm text-white'>Deployed on Vite <img src='/vite.svg' className='size-5 ml-2' alt='icon of Vite'></img> </li>
                             </ul>
                         </div> 
                 </div>
-                <div className='flex justify-center gap-10 my-8'>
+                <div className='flex justify-start px-5 gap-10 my-8'>
                 <a href="https://github.com/nyolarraklay/ReactPractice2" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
                 <a href="https://noroffonlineshop.netlify.app/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                 </div>  
-                </div>
-                
-                 
+                </div>  
             </div>
              <div className='max-w-sm mx-auto p-1 rounded-lg border shadow-md border-black projectsForLgScreenDiv'>
-                <div className='p-7'>
-                    <img src={azAuction} alt="screenshot of a&z.com" className='rounded-t-lg' />
+                <div className='lg:pl-5 lg:pt-7 lg:h-[350px] lg:w-[850px] lg:pr-80'>
+                    <img src={azAuction} alt="screenshot of a&z.com" className='rounded-t-lg size-full' />
                 </div>
                 <div>
-     <div className='p-5 space-y-2'>
-                    <h3 className='text-2xl font-extrabold'>A & Z Auction</h3>
-                    <h4 className='text-lg font-semibold'>Online Auction Site</h4>
+                <div className='p-5 space-y-2'>
+                    <h2 className='text-2xl font-extrabold'>A & Z Auction</h2>
+                    <h3 className='text-lg font-semibold'>Online Auction Site</h3>
                     <p>A & Z auction is a user interaction platform that allows users with stud.noroff.no emails to register, login, update avatars, and view total credit. Registered users can create listings with a title, deadline date, media gallery, and description, as well as add bids to other listings and view bids on their listings.</p>
                     <p>Unregistered users can search through listings, ensuring access to a wide audience.</p>
                     <p>The platform provides interfaces for user registration, login, profile management, listing creation, bid management, and search functionality for unregistered users.</p>
                 </div>
                 <div className='p-5 space-y-2'>
-                    <h3>Technologies</h3>   
+                    <h3 className='text-2xl font-semibold'>Technologies</h3>   
                     <hr />
                     <div>
-                        <ul className='flex flex-wrap space-x-1 space-y-1 justify-start items-center'>
+                        <ul className='flex flex-wrap gap-1 justify-start items-center'>
                             <li className='flex items-center bg-orange-500 rounded-md px-2 border shadow-md text-sm'><RiHtml5Fill className='text-md text-black' />HTML</li>
-                            <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-white' ><RiCss3Fill className='text-md text-white' /> CSS</li>
+                            <li className='flex items-center  bg-blue-400 rounded-md px-2 border shadow-md text-sm text-black' ><RiCss3Fill className='text-md text-black' /> CSS</li>
                             <li className='flex items-center bg-yellow-500 rounded-md px-2 border shadow-md text-sm text-black'><RiJavascriptFill className='text-lg ' />JavaScript</li>
                             <li className='flex items-center  bg-purple-600 rounded-md px-2 border shadow-md text-sm text-white' ><RiBootstrapLine className='text-lg' /> Bootstrap</li>
                             <li className='flex items-center bg-rose-200 rounded-md px-2 border shadow-md text-sm text-black'><FaSass className='text-lg ' />Sass</li>
@@ -112,13 +107,11 @@ function Projects() {
                         </ul>
                     </div> 
                 </div>   
-                <div className='flex justify-center gap-10 my-8'>
+                <div className='flex justify-start px-5 gap-10 my-8'>
                 <a href="https://github.com/nyolarraklay/SemesterProject-AuctionWebsite" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
                 <a href="https://nyolarraklay.github.io/SemesterProject-AuctionWebsite/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                 </div> 
                 </div>
-
-                   
             </div> 
         </div>
     </div>

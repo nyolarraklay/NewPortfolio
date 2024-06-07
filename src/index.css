@@ -29,3 +29,7 @@
     @apply lg:text-start lg:pr-20 lg:items-start lg:justify-start;
 }
 
+.iconSizeTech {
+    @apply size-6 lg:size-12
+}
+

@@ -5,22 +5,15 @@ import Navigation from "./Components/Navigation"
 import Profile from "./Components/Profile"
 import Projects from "./Components/Projects"
 
-
-
 function App() {
-
-
   return (
     <>
       <Navigation />
       <Profile />
       <AboutMe />
       <Projects />
-   
-        <Contact />
-      <Footer />
-    
-      
+      <Contact />
+      <Footer />   
     </>
   )
 }

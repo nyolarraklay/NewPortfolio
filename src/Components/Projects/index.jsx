@@ -41,8 +41,8 @@ function Projects() {
                     </div> 
                     </div>
                     <div className='flex justify-start px-5 gap-10 my-8'>
-                    <a href="https://github.com/nyolarraklay/Noroff" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
-                    <a href="https://bookipedia-onlinebooking.netlify.app/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
+                    <a href="https://github.com/nyolarraklay/Noroff" target="_blank" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
+                    <a href="https://bookipedia-onlinebooking.netlify.app/" target="_blank" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                     </div>   
                 </div>
                
@@ -73,8 +73,8 @@ function Projects() {
                         </div> 
                 </div>
                 <div className='flex justify-start px-5 gap-10 my-8'>
-                <a href="https://github.com/nyolarraklay/ReactPractice2" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
-                <a href="https://noroffonlineshop.netlify.app/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
+                <a href="https://github.com/nyolarraklay/ReactPractice2" target="_blank" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
+                <a href="https://noroffonlineshop.netlify.app/" target="_blank" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                 </div>  
                 </div>  
             </div>
@@ -108,8 +108,8 @@ function Projects() {
                     </div> 
                 </div>   
                 <div className='flex justify-start px-5 gap-10 my-8'>
-                <a href="https://github.com/nyolarraklay/SemesterProject-AuctionWebsite" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
-                <a href="https://nyolarraklay.github.io/SemesterProject-AuctionWebsite/" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
+                <a href="https://github.com/nyolarraklay/SemesterProject-AuctionWebsite" target="_blank" className='flex gap-1 font-semibold'>Code <RxGithubLogo className='text-2xl' /></a>
+                <a href="https://nyolarraklay.github.io/SemesterProject-AuctionWebsite/" target="_blank" className='flex gap-1 font-semibold'>Live Demo<RxExternalLink className='text-2xl' /></a> 
                 </div> 
                 </div>
             </div> 

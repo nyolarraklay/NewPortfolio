@@ -11,8 +11,8 @@ function Profile() {
           <div className='flex flex-col relative max-w-4xl gap-1 lg:px-10'>
             <h1 className='text-5xl sm:text-6xl font-bold my-2 '>Front-end React Developer</h1>
             <p className='text-lg font-semibold lg:pr-48'>Hi, I'm Ernesto Osorio Jr. A passionate Front-end React Developer based in Oslo, Norway. ✈️ </p>
-            <span className='flex cursor-pointer justify-center mt-2 gap-2 md:justify-start'><a href="https://www.linkedin.com/in/ernesto-jr-osorio-16b698248/" aria-label="Go to my linked-in account"><img src={linkedin} alt="" className='size-10' /></a>
-            <a href="https://github.com/nyolarraklay" aria-label="Visit my github profile"><img src={github} alt="" className='size-10' /></a> 
+            <span className='flex cursor-pointer justify-center mt-2 gap-2 md:justify-start'><a href="https://www.linkedin.com/in/ernesto-jr-osorio-16b698248/" target="_blank" aria-label="Go to my linked-in account"><img src={linkedin} alt="" className='size-10' /></a>
+            <a href="https://github.com/nyolarraklay" target="_blank" aria-label="Visit my github profile"><img src={github} alt="" className='size-10' /></a> 
             </span>
           </div>
       </div>
